@@ -1,0 +1,43 @@
+body{
+    background-color: #9e9a94a1;
+    font-family: "Oswald", sans-serif;
+}
+.container{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 30px;
+}
+.container h1{
+    margin-bottom: 80px;
+    font-size: 32px;
+    color: #000000;
+    
+}
+#formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 22px;
+}
+
+li{
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+    
+}
+
+#lista_resultado{
+    text-decoration: none;
+    width: 100% 
+}
